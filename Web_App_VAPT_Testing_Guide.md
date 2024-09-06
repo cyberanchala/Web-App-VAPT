@@ -130,7 +130,7 @@ Ensure that the business logic of the application cannot be exploited for malici
 Evaluate the application’s use of cryptography to ensure data is securely encrypted.
 - Check for:
   - Data Encryption : Verify that sensitive data is properly encrypted.
-  - Appropriate algorithm usage based on context
+  - Appropriate algorithm usage based on context.
   - Algorithm Strength : Check for the use of weak or deprecated algorithms.
   - Salting : Ensure that proper salting techniques are used to secure hashes.
   - Randomness : Test for the proper use of cryptographically secure randomness functions.
